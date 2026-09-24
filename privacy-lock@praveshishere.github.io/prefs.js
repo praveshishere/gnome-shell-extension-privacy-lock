@@ -1,3 +1,6 @@
+// SPDX-FileCopyrightText: 2026 praveshishere
+// SPDX-License-Identifier: GPL-2.0-or-later
+
 import Gio from 'gi://Gio';
 import Gtk from 'gi://Gtk';
 import Gdk from 'gi://Gdk';

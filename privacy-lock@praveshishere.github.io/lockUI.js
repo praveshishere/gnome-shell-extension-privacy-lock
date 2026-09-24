@@ -1,3 +1,6 @@
+// SPDX-FileCopyrightText: 2026 praveshishere
+// SPDX-License-Identifier: GPL-2.0-or-later
+
 import GObject from 'gi://GObject';
 import Clutter from 'gi://Clutter';
 import St from 'gi://St';

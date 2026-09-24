@@ -1,3 +1,6 @@
+// SPDX-FileCopyrightText: 2026 praveshishere
+// SPDX-License-Identifier: GPL-2.0-or-later
+
 import GLib from 'gi://GLib';
 import Meta from 'gi://Meta';
 import Shell from 'gi://Shell';
