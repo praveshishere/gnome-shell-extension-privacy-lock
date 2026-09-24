@@ -1,0 +1,9 @@
+{
+  "uuid": "privacy-lock@praveshishere.github.io",
+  "name": "Privacy Lock Screen",
+  "description": "Tinted PIN-locked overlay that blocks input while leaving the live desktop visible. An input lock for short desk-away moments, not a replacement for the real lock screen.",
+  "shell-version": ["46"],
+  "url": "https://github.com/praveshishere/gnome-shell-extension-privacy-lock",
+  "settings-schema": "org.gnome.shell.extensions.privacy-lock",
+  "version-name": "1.0.0"
+}

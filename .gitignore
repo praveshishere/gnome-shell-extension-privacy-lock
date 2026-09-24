@@ -1,0 +1,5 @@
+# Built bundle produced by `make pack`
+*.shell-extension.zip
+
+# Compiled GSettings schemas are a build artefact of glib-compile-schemas
+schemas/gschemas.compiled

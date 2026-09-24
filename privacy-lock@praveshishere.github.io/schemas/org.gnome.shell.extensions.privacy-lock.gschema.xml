@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist gettext-domain="privacy-lock">
+  <schema id="org.gnome.shell.extensions.privacy-lock" path="/org/gnome/shell/extensions/privacy-lock/">
+    <key name="inactivity-minutes" type="i">
+      <default>5</default>
+      <summary>Idle minutes before auto-lock</summary>
+      <description>Number of minutes of user inactivity before the privacy overlay is shown automatically. Set to 0 to disable auto-lock.</description>
+    </key>
+    <key name="tint-opacity" type="d">
+      <default>0.15</default>
+      <range min="0.0" max="0.6"/>
+      <summary>Strength of the lock tint</summary>
+      <description>Opacity of the colour wash drawn over the screen while locked, so it is visibly evident the lock is engaged. 0.0 is fully transparent (no visual indication beyond the PIN card); higher values dim the desktop more.</description>
+    </key>
+    <key name="tint-color" type="s">
+      <default>'#ededed'</default>
+      <summary>Colour of the lock tint</summary>
+      <description>Hex colour (#rrggbb) of the wash drawn over the screen while locked. A neutral light grey reads as a film laid over the desktop; a saturated colour reads as a colour cast.</description>
+    </key>
+    <key name="lock-keybinding" type="as">
+      <default>['&lt;Super&gt;&lt;Shift&gt;l']</default>
+      <summary>Keybinding to trigger the privacy lock</summary>
+      <description>Keyboard shortcut that shows the privacy overlay immediately.</description>
+    </key>
+  </schema>
+</schemalist>
